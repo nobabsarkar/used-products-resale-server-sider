@@ -7,9 +7,6 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-// useProduct
-// knF5zC3H2ci7zLOl;
-
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@amarclastar.oxggard.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, {
