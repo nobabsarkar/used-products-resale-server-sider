@@ -16,6 +16,7 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 
+// funcinality
 async function run() {
   try {
     const useCollection = client.db("useProducts").collection("product");
